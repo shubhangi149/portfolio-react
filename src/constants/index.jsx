@@ -7,7 +7,7 @@ export const PROFILE = {
     location: "Nashik, India",
     email: "shubhangiraundal2160@gmail.com",
     phone: "+91-8698447820",
-    photo: "/dgp.png",
+    photo: "/dp.png",
     links: {
         github: "https://github.com/shubhangi149",
         linkedin: "https://www.linkedin.com/in/shubhangi-raundal-721b96366/",
