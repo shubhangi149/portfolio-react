@@ -10,7 +10,7 @@ export default function Navbar({ onToggleTheme, isDark }) {
                 {/* Brand / Logo */}
                 <a href="" className="font-extrabold tracking-tight text-xl sm:text-2xl">
                     <span className="inline-flex items-center gap-1">
-                        <span className="text-sky-500">★</span>
+                        <span className="text-sky-500"></span>
                         <span className="bg-gradient-to-tr from-pink-500 to-yellow-500 bg-clip-text text-transparent font-extrabold">
                             Portfolio
                         </span>

@@ -1,13 +1,13 @@
 // Personalize all content here
 export const PROFILE = {
-    name: "Shubhangi Bhaushaheb Raundal",
+    name: "Shubhangi Bhausaheb Raundal",
     tag: "Aspiring Software Engineer • Final Year B.Tech at Sandip University",
     about:
         "I'm a final-year B.Tech student at Sandip University. I love building user-friendly web apps, exploring algorithms, and learning by doing. I'm seeking internship/full-time opportunities to grow and contribute to meaningful products.",
     location: "Nashik, India",
     email: "shubhangiraundal2160@gmail.com",
     phone: "+91-8698447820",
-    photo: "/pp.png",
+    photo: "/dgp.png",
     links: {
         github: "https://github.com/shubhangi149",
         linkedin: "https://www.linkedin.com/in/shubhangi-raundal-721b96366/",
