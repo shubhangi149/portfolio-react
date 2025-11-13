@@ -1,17 +1,26 @@
 // Personalize all content here
 export const PROFILE = {
     name: "Shubhangi Bhausaheb Raundal",
+    displayName: "Shubhangi Raundal",
     tag: "Aspiring Software Engineer • Final Year B.Tech at Sandip University",
     about:
-        "I'm a final-year B.Tech student at Sandip University. I love building user-friendly web apps, exploring algorithms, and learning by doing. I'm seeking internship/full-time opportunities to grow and contribute to meaningful products.",
-    location: "Nashik, India",
-    email: "shubhangiraundal2160@gmail.com",
-    phone: "+91-8698447820",
+        "Enthusiastic and detail-oriented Junior Python Developer with a strong foundation in Python programming and a passion for solving complex problems. Skilled in developing scripts for data manipulation, automation, and web scraping. Proficient in working with databases such as MySQL and MongoDB. A quick learner with excellent problem-solving skills and a commitment to delivering efficient and reliable solutions. Actively seeking an opportunity to contribute to impactful projects while growing technical expertise in a collaborative environment.",
     photo: "/dp.png",
-    links: {
-        github: "https://github.com/shubhangi149",
-        linkedin: "https://www.linkedin.com/in/shubhangi-raundal-721b96366/",
-        resume: "/resume.pdf",
+    contactInfo: {
+        location: { icon: "fa fa-map-marker", text: "Nashik, Maharashtra, India" },
+        phone: { icon: "fa fa-phone", text: "+91 869 844 7820" },
+        email: { icon: "fa fa-envelope", text: "shubhangiraundal2160@gmail.com" },
+    },
+	quickLinks: [
+        { name: "About Me", href: "#about" },
+        { name: "Skills", href: "#skills" },
+        { name: "Projects", href: "#projects" },
+        { name: "Resume", href: "/shubhangi_resume.pdf" },
+    ],
+	social_media_links: {
+        LinkedIn: { url: "https://www.linkedin.com/in/shubhangi-raundal-721b96366/", icon: "fa fa-linkedin" },
+        GitHub: { url: "https://github.com/shubhangi149", icon: "fa fa-github" },
+        Resume: { url: "/shubhangi_resume.pdf", icon: "fa fa-file" },
     },
     emailjs_cred:{
         SERVICE_ID: import.meta.env.VITE_SERVICE_ID,
@@ -33,8 +42,8 @@ export const PROFILE = {
         {
             title: "Book My Pandit",
             desc:
-                "'Book My Pandit' is a mobile application built using Java for Android development, designed to help users easily book pandits (priests) for various religious ceremonies and events. The app allows users to search for available pandits based on their location, preferred ceremony type, and timing. Firebase is used as the backend database to manage user data, appointments, and pandit profiles in real-time. The application offers a user-friendly interface, secure login, and seamless booking process, making it convenient for users to schedule their religious rituals with just a few taps. ",
-            tech: ["Java", "Android Stdio", "Firebase"],
+                "Book My Pandit is a web application built using Python (FastAPI) for the backend and React for the frontend, designed to help users easily book pandits (priests) for various religious ceremonies and events. The platform enables users to search for available pandits based on location, ceremony type, and preferred timing. MongoDB is used as the database to manage user data, appointments, and pandit profiles in real time. The application provides a clean, user-friendly interface, secure authentication, and a seamless booking workflow, making it simple and efficient for users to schedule their religious rituals online.",
+            tech: ["Python", "FastAPI", "React", "MongoDB"],
             link: "#",
             repo: "#",
         }

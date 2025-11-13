@@ -1,6 +1,10 @@
 import { motion } from "framer-motion";
 
-export default function Hero({ name, tag, location, photo }) {
+export default function Hero({ data }) {
+    const name = data.name
+    const tag = data.tag
+    const location = data.contactInfo.location.text
+    const photo = data.photo
     return (
         <section
             className="relative overflow-hidden"
@@ -47,11 +51,11 @@ export default function Hero({ name, tag, location, photo }) {
                     <p className="mt-1 text-sm opacity-70">{location}</p>
 
                     {/* Buttons */}
-                    <div className="mt-8 flex flex-wrap gap-3 justify-center">
-                        <a href="#projects" className="btn-primary">
+                    <div className="mt-8 flex flex-wrap gap-4 justify-center">
+                        <a href="#projects" className="btn-primary px-8 py-3 rounded-full font-medium transition-all duration-300 hover:shadow-lg border-2">
                             View Projects
                         </a>
-                        <a href="#contact" className="btn-ghost">
+                        <a href="#contact" className="btn-ghost px-8 py-3 rounded-full font-medium transition-all duration-300 hover:shadow-lg border-2">
                             Get in Touch
                         </a>
                     </div>

@@ -5,12 +5,9 @@ export default function Experience({ experiences }) {
     return (
         <section id="experience" className="container-section px-5 sm:px-10 py-20 sm:py-28">
             <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-sky-500 to-fuchsia-500 bg-clip-text text-transparent">
-                    💼 Experience
+                <h2 className="text-3xl font-bold tracking-tight bg-gradient-to-r bg-clip-text">
+                    Experience
                 </h2>
-                <p className="mt-3 text-gray-600 dark:text-gray-400 text-sm">
-                    Internships and professional journey
-                </p>
             </div>
 
             <div className="relative">
@@ -30,10 +27,6 @@ export default function Experience({ experiences }) {
                                         hover:shadow-2xl hover:scale-[1.02] transition cursor-pointer 
                                         ${i % 2 ? "sm:ml-auto" : "sm:mr-auto"}`}
                         >
-                            {/* Timeline dot */}
-                            <div className="absolute -left-1.5 sm:left-1/2 sm:-translate-x-1/2 top-6 w-3 h-3 rounded-full 
-                                            bg-gradient-to-tr from-sky-500 via-fuchsia-500 to-pink-500 z-10" />
-
                             {/* Period pill near the dot */}
                             <div className="absolute sm:left-1/2 sm:-translate-x-1/2 -top-5">
                                 <span className="px-3 py-1 text-xs rounded-full bg-sky-100 text-sky-600 dark:bg-sky-900/50 dark:text-sky-300 shadow-sm">

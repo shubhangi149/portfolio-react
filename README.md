@@ -7,22 +7,22 @@ modern design.
 
 ------------------------------------------------------------------------
 
-## 🚀 Features
+## Features
 
--   🌞 **Dark/Light Mode Toggle**\
--   🎭 **Smooth Animations** with [Framer
+-   **Dark/Light Mode Toggle**\
+-   **Smooth Animations** with [Framer
     Motion](https://www.framer.com/motion/)\
--   🎨 **Beautiful UI** styled using [Tailwind
+-   **Beautiful UI** styled using [Tailwind
     CSS](https://tailwindcss.com/)\
--   📱 **Responsive Design** (mobile-first, works on all devices)\
--   📂 **Projects Showcase** with live links & GitHub repos\
--   📑 **About Section** with highlights & resume download\
--   🛠️ **Skills Section** with interactive badges\
--   🔗 Social links & external redirects
+-   **Responsive Design** (mobile-first, works on all devices)\
+-   **Projects Showcase** with live links & GitHub repos\
+-   **About Section** with highlights & resume download\
+-   **Skills Section** with interactive badges\
+-   Social links & external redirects
 
 ------------------------------------------------------------------------
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Frontend:** React + Vite\
 -   **Styling:** Tailwind CSS\
@@ -32,7 +32,7 @@ modern design.
 
 ------------------------------------------------------------------------
 
-## 📂 Project Structure
+## Project Structure
 
     📦 portfolio
      ┣ 📂 src
@@ -48,12 +48,12 @@ modern design.
 
 ------------------------------------------------------------------------
 
-## ⚡ Installation & Setup
+## Installation & Setup
 
 1.  Clone the repository
 
     ``` bash
-    git clone https://github.com/your-username/portfolio.git
+    git clone https://github.com/Harsh6468/portfolio-react.git
     cd portfolio
     ```
 
@@ -77,7 +77,7 @@ modern design.
 
 ------------------------------------------------------------------------
 
-## 🎨 Customization
+## Customization
 
 -   Edit `src/components/About.jsx` → Update bio & highlights\
 -   Edit `src/components/Skills.jsx` → Add your skills\
@@ -87,7 +87,7 @@ modern design.
 
 ------------------------------------------------------------------------
 
-## 🌍 Deployment
+## Deployment
 
 You can easily deploy this portfolio:\
 - [Vercel](https://vercel.com) → one-click deploy\
@@ -96,20 +96,20 @@ You can easily deploy this portfolio:\
 
 ------------------------------------------------------------------------
 
-## 🤝 Contributing
+## Contributing
 
 This is my personal portfolio, but feel free to fork & use as a
 template.\
-If you improve it, contributions are welcome! 🚀
+If you improve it, contributions are welcome!
 
 ------------------------------------------------------------------------
 
-## 📬 Contact
+## Contact
 
 -   **Email:** shubhangiraundal2160@gmail.com
 -   **LinkedIn:** [Your LinkedIn](https://www.linkedin.com/in/shubhangi-raundal-721b96366/)\
--   **GitHub:** [Your GitHub](https://github.com/shubhangi149)
+-   **GitHub:** [Your GitHub](https://github.com/Harsh6468)
 
 ------------------------------------------------------------------------
 
-⭐ If you like this project, don't forget to **star the repo**!
+If you like this project, don't forget to **star the repo**!
